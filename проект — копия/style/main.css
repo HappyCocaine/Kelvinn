@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import "./reset.css";
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+.container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #F1F1F1;
+    padding-top: 50px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+    align-items: center;
+}
+
+.header-row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 176px;
+}
+.header-content p{
+   font-weight: 400;
+   font-size: 14px;
+   max-width: 500px;
+   line-height: 2; 
+   padding: 20px 0;
+}
+
+.header-title{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 1.5;
+}
+
+.nav-list{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.nav-list .active{
+    color: #606060;
+}
+
+.logo{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+}
+
+/* Services */
+
+.services{
+    padding: 90px 0;
+}
+
+.services-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services-row p{
+    padding: 10px 0;
+    font-weight: 400;
+    max-width: 370px;
+    line-height: 2;
+}
+
+.services-title{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.services-img{
+    margin-bottom: 30px;
+}
+
+
+/* Portfolio */
+
+.portfolio{
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+
+.portfolio-title{
+    font-weight: 600;
+    font-size: 34px;
+    padding: 90px 0 70px 0;
+}
+
+.portfolio-img{
+    padding-bottom: 40px;
+}
+
+
+.portfolio-description{
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline;
+    padding-bottom: 90px;
+}
+
+
+.contacts {
+    background-color: #fff;
+    text-align: center;
+}
+
+.contacts-title {
+    font-weight: 600;
+    font-size: 34px;
+    padding: 90px 0 40px 0;
+}
+.contact-descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 40px;
+}
+.contact-message {
+    padding: 7px 23px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+}
+.contact-social {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 80px 0 40px 0;
+}
+
+.copyright{
+    color: #828282;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
